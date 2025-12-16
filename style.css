@@ -17,6 +17,8 @@ header {
     justify-content: space-between;
     position: sticky;
     top: 0;
+    margin-left: 170px;
+    margin-right: 170px;
 }
 
 .logo{
@@ -49,6 +51,10 @@ a{
     font-weight: 600;
 }
 
+p{
+    font-size: 18px;
+    font-weight: 400px;
+}
 
 .join-us{
     background-color: #fB5966;
@@ -57,6 +63,8 @@ a{
     border: none;
     padding: 14px 17px;
     border-radius: 30px;
+    margin-top: 20px;
+    margin-right: 28px;
 }
 
 .learn-more {
@@ -65,11 +73,52 @@ a{
     border: 1.5px solid #020202;
     background-color: #ffffff;
     font-weight: 600;
+    margin-top: 20px;
 }
 
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
-    align-items: center;
+    align-items: start;
 }
+
+.hero{
+    margin-top: 120px;
+    
+}
+
+.stats {
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+  }
+
+.container-hero h1{
+    font-size: 71px;
+    font-weight: 400;
+    letter-spacing: -2px;
+}
+.container-hero {
+    margin-left: 220px;
+    width: 550px;
+}
+
+.p {
+    margin-top: 10px;
+    width: 400px;
+  }
+
+.stats {
+    margin-top: 90px;
+    margin-left: -38px;
+}
+  .stats img {
+
+    padding: 0 24px;
+  }
+  
+  .stats img:not(:last-child) {
+    border-right: 4px solid black;
+  }
+  
