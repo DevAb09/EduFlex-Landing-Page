@@ -121,7 +121,8 @@ p{
   .stats img:not(:last-child) {
     border-right: 4px solid black;
   }
-  .hero-images img:nth-last-child(1),
+
+.hero-images img:nth-last-child(1),
 .hero-images img:nth-last-child(2),
 .hero-images img:nth-last-child(3) {
   width: 100%;
@@ -129,4 +130,8 @@ p{
   object-fit: cover;
   border-radius: 24px;
 }
+.hero-images img:nth-last-child(1) {
+  grid-column: 1 / -1;
+}
+
 
