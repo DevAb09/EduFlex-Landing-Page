@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 body {
     padding: 40px;
 }
@@ -121,41 +120,18 @@ p{
   .stats img:not(:last-child) {
     border-right: 4px solid black;
   }
+  
+  .group8-img {
+    background-color: #fB5966;
+    padding: 40px;
+    border-radius: 30px;
+    border: 4px solid #ffffffff;
+    display: inline;
+  }
 
-.hero-images img:nth-last-child(1),
-.hero-images img:nth-last-child(2),
-.hero-images img:nth-last-child(3) {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 24px;
-}
-.hero-images img:nth-last-child(1) {
-  grid-column: 1 / -1;
-}
-.hero-images img:nth-child(1) {
-  position: absolute;
-  top: -40px;
-  left: -30px;
-}
-
-.hero-images img:nth-child(2) {
-  position: absolute;
-  top: 80px;
-  right: -40px;
-}
-
-.hero-images img:nth-child(3) {
-  position: absolute;
-  bottom: 120px;
-  left: -20px;
-}
-
-.hero-images img:nth-child(4) {
-  position: absolute;
-  top: 20px;
-  right: 120px;
-}
-
-
-
+  .arrow{
+    background-color: aqua;
+    padding: 30px;
+    display: inline;
+    border-radius: 50%;
+  }
