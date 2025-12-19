@@ -75,6 +75,10 @@ p{
     margin-top: 20px;
 }
 
+.hero-images{
+    position: relative;
+}
+
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -120,18 +124,84 @@ p{
   .stats img:not(:last-child) {
     border-right: 4px solid black;
   }
-  
+
+  .images-container {
+    position: relative;
+    width: 100%;
+    height: 600px; /* controls the stacking area */
+  }
+  .rect-7 img,
+  .rect-8 img,
+  .rect-9 img {
+    width: 260px;
+    border-radius: 24px;
+  }
+    
   .group8-img {
     background-color: #fB5966;
     padding: 40px;
     border-radius: 30px;
     border: 4px solid #ffffffff;
     display: inline;
+    margin-top: 400px;
+    position: absolute;
+    z-index: 10;
   }
 
-  .arrow{
-    background-color: aqua;
-    padding: 30px;
-    display: inline;
-    border-radius: 50%;
+
+  .rect-7 {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    z-index: 3;
   }
+  
+  .rect-8 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+  }
+  
+  .rect-9 {
+    position: absolute;
+    bottom: 0;
+    left: 120px;
+    z-index: 1;
+  }
+  
+  .group8-img {
+    position: absolute;
+    top: 180px;
+    left: 140px;
+    background: #fB5966;
+    padding: 32px;
+    border-radius: 28px;
+    border: 4px solid #fff;
+    z-index: 10;
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 120px;
+    right: -30px;
+    background: #e6ffff;
+    padding: 22px;
+    border-radius: 50%;
+    z-index: 9;
+  }
+  
+  .articurve {
+    position: absolute;
+    bottom: 20px;
+    right: 150px;
+    z-index: 0;
+  }
+  
+  .star-one {
+    position: absolute;
+    bottom: 180px;
+    left: -70px;
+    z-index: 8;
+  }
+  
