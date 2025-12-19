@@ -130,9 +130,13 @@ p{
     width: 100%;
     height: 600px; /* controls the stacking area */
   }
-  .rect-7 img,
-  .rect-8 img,
+  
   .rect-9 img {
+    width: 400px;
+    border-radius: 24px;
+  }
+  .rect-8 img
+  {
     width: 260px;
     border-radius: 24px;
   }
@@ -151,22 +155,22 @@ p{
 
   .rect-7 {
     position: absolute;
-    top: 60px;
-    left: 0;
+    top: 140px;
+    left: 40px;
     z-index: 3;
   }
   
   .rect-8 {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 175px;
+    right: 280px;
     z-index: 2;
   }
   
   .rect-9 {
     position: absolute;
-    bottom: 0;
-    left: 120px;
+    top: 436px;
+    right: 495px;
     z-index: 1;
   }
   
@@ -183,8 +187,8 @@ p{
   
   .arrow {
     position: absolute;
-    top: 120px;
-    right: -30px;
+    top: 100px;
+    right: 537px;
     background: #e6ffff;
     padding: 22px;
     border-radius: 50%;
@@ -194,7 +198,7 @@ p{
   .articurve {
     position: absolute;
     bottom: 20px;
-    right: 150px;
+    right: 250px;
     z-index: 0;
   }
   
