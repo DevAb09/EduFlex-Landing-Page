@@ -199,16 +199,33 @@ p{
     padding: 20px;
   }
   
+  /* ,.articurve img {
+
+  } */
   .articurve {
     position: absolute;
-    bottom: 20px;
-    right: 250px;
+    bottom: 10px;
+    right: 220px;
     z-index: 0;
   }
-  
+
+  .icon-park {
+    position: absolute;
+    bottom: 80px;
+    right: 280px;
+    z-index: 9; 
+  }
+
+  .arti-icon {
+    position: absolute;
+    top: 150px;
+    right: 180px;
+    z-index: 3; 
+  }
   .star-one {
     position: absolute;
     bottom: 180px;
     left: -70px;
     z-index: 8;
   }
+  
