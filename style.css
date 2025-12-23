@@ -4,10 +4,12 @@
     box-sizing: border-box;
 }
 
-body {
+/* body {
     padding: 40px;
+} */
+main {
+  padding-top: 24px;
 }
-
 header {
   background: #fff;
   position: sticky;
@@ -17,17 +19,27 @@ header {
 .header-inner {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 140px;
 }
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 314px; /* BIG space: logo ↔ nav */
+}
+
+.menu {
+  display: flex;
+  gap: 32px; /* nav link spacing */
+}
+
 
 .container{
   max-width: 1290px;
   margin: 0 auto;
-  /* padding-inline: 24px; */
-  border: 2px blue solid;
+  padding-inline: 24px;
 }
 .logo{
-    margin-right: 160px;
     color: #fB5966;
     font-family: Inter;
     font-weight: 400;
@@ -37,12 +49,9 @@ header {
     letter-spacing: 0%;
 }
 
-.menu a{
-  padding: 0 25px;
-}
 
 a{ 
-    padding-right: 20px;
+    padding-right: 17px;
     color: #020202;
     text-decoration: none;
 }
@@ -97,7 +106,8 @@ p{
 .stats {
     display: flex;
     align-items: center;
-    margin-top: 5rem;
+    margin-top: 120px;
+    margin-left: -38px;
   }
 
 .container-hero h1{
@@ -106,14 +116,10 @@ p{
     letter-spacing: -2px;
 }
 .container-hero {
-    width: 550px;
+    max-width: 550px;
     margin-top: 85px;   
 }
 
-.stats {
-    margin-top: 90px;
-    margin-left: -38px;
-}
   .stats img {
 
     padding: 0 24px;
@@ -129,10 +135,17 @@ p{
     height: 600px; /* controls the stacking area */
   }
   
+   img{
+    max-width: 100%;
+    height: auto;
+  }
+
   .rect-7 img { width: 245px;
   height: 253px;}
+
   .rect-9 img {
     width: 400px;
+    max-width: none;
     height: 217px;
     border-radius: 24px;
   }
@@ -153,7 +166,7 @@ p{
   .rect-8 {
     position: absolute;
     top: 196px;
-    right: 159px;
+    right: 133px;
     z-index: 2;
   }
   
@@ -199,16 +212,21 @@ p{
     padding: 20px;
   }
   
-  /* ,.articurve img {
-
-  } */
+  .articurve img {
+    width: 45px;
+    height: 45px;
+  }
   .articurve {
     position: absolute;
-    bottom: 10px;
-    right: 220px;
+    bottom: 15px;
+    right: 210px;
     z-index: 0;
   }
 
+  .icon-park img {
+    width: 35px;
+    height: 35px;
+  }
   .icon-park {
     position: absolute;
     bottom: 80px;
@@ -224,8 +242,8 @@ p{
   }
   .star-one {
     position: absolute;
-    bottom: 180px;
-    left: -70px;
+    bottom: 230px;
+    left: -90px;
     z-index: 8;
   }
   
