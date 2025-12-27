@@ -299,12 +299,12 @@ p{
 .header-left {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 14px; /* BIG space: logo ↔ nav */
 }
 
 .menu {
   display: flex;
-  gap: 2px;
+  gap: 2px; /* nav link spacing */
 }
 
 }
@@ -317,3 +317,4 @@ p{
     margin-right: 0;
   }
 }
+
